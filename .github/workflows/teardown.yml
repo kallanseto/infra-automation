@@ -65,7 +65,7 @@ jobs:
         docker run \
             $KBST_DOCKER_ARGS \
             $KBST_DOCKER_IMAGE \
-          terraform destroy
+          terraform destroy --input=false
     #
     #
     # Select apps workspace
@@ -83,4 +83,4 @@ jobs:
         docker run \
             $KBST_DOCKER_ARGS \
             $KBST_DOCKER_IMAGE \
-          terraform destroy
+          terraform destroy --input=false
