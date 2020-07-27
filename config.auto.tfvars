@@ -23,6 +23,9 @@ clusters = {
       # Initial number of desired nodes per zone
       cluster_initial_node_count = 1
 
+      # Maximum number of nodes per zone
+      cluster_max_node_count = 3
+
       # The Google cloud region to deploy the clusters in
       region = "australia-southeast1"
 
@@ -40,6 +43,8 @@ clusters = {
       # ops cluster
       # e.g. cluster_node_locations = "europe-west3-a"
       cluster_node_locations = "australia-southeast1-b,australia-southeast1-c"
+
+      cluster_max_node_count = 1
     }
   }
 }
