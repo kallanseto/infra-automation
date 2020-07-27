@@ -17,6 +17,10 @@ spec:
       containers:
       - image: kallanseto/egressmgr:master
         name: egressmgr
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
       serviceAccountName: egressmgr
 ---
 apiVersion: v1
