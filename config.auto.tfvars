@@ -39,7 +39,7 @@ clusters = {
       # Overwrite apps["cluster_node_locations"] to have a smaller
       # ops cluster
       # e.g. cluster_node_locations = "europe-west3-a"
-      cluster_node_locations = "australia-southeast1-c"
+      cluster_node_locations = "australia-southeast1-b,australia-southeast1-c"
     }
   }
 }
