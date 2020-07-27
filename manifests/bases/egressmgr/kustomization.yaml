@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: egress-admin
 resources:
 - deployment.yaml
+- limitrange.yaml
 - namespace.yaml
 - rbac.yaml
