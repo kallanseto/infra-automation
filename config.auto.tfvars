@@ -24,7 +24,7 @@ clusters = {
       cluster_initial_node_count = 1
 
       # Maximum number of nodes per zone
-      cluster_max_node_count = 3
+      cluster_max_node_count = 2
 
       # The Google cloud region to deploy the clusters in
       region = "australia-southeast1"
