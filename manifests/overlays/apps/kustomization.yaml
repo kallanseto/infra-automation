@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - ../../bases/nginx/default-ingress
 - ../../bases/egressmgr
+- ../../bases/flux/base
