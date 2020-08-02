@@ -24,7 +24,7 @@ clusters = {
       cluster_initial_node_count = 1
 
       # Maximum number of nodes per zone
-      cluster_max_node_count = 2
+      cluster_max_node_count = 5
 
       # The Google cloud region to deploy the clusters in
       region = "australia-southeast1"
@@ -39,11 +39,6 @@ clusters = {
     # Settings for Ops-cluster
     # configuration here overwrites the values from apps
     ops = {
-      # Overwrite apps["cluster_node_locations"] to have a smaller
-      # ops cluster
-      # e.g. cluster_node_locations = "europe-west3-a"
-      cluster_node_locations = "australia-southeast1-b,australia-southeast1-c"
-
       cluster_max_node_count = 1
     }
   }
